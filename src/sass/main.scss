@@ -1,0 +1,43 @@
+
+
+
+
+
+
+
+// Bootstrap and its default variables
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+.tictactoe {
+	width: 250px;
+}
+
+#gameBoard {
+	margin-left: 50px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+
+#restartButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.space {
+	padding-top: 7px;
+	height: 50px;
+	width: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	/*color: #FF0000;*/
+}
+
+.line-right {
+	border-right: 2px solid #ccc;
+}
+
+.line-bottom {
+	border-bottom: 2px solid #ccc;
+}
